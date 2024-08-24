@@ -1,0 +1,141 @@
+.dashboard {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+.dashboard-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+}
+
+.user-image {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-left: auto;
+    object-fit: cover;
+}
+
+.logout-button {
+    padding: 10px 20px;
+    background-color: #d9534f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.logout-button:hover {
+    background-color: #c9302c;
+}
+
+.dashboard-content {
+    margin-top: 20px;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.blog-form input,
+.blog-form textarea,
+.blog-form button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.blog-form input[type="file"] {
+    padding: 0;
+}
+
+.blog-form button {
+    background-color: #5bc0de;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.blog-form button:hover {
+    background-color: #31b0d5;
+}
+
+.message {
+    color: #d9534f;
+    font-weight: bold;
+}
+
+.blog-list {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.blog-list th, .blog-list td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+.blog-list th {
+    background-color: #f4f4f4;
+}
+
+.blog-list tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.blog-image {
+    width: 100px;
+    height: auto;
+    border-radius: 5px;
+}
+
+.delete-confirmation {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.delete-confirmation button {
+    margin: 0 5px;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.delete-confirmation button:first-child {
+    background-color: #d9534f;
+    color: white;
+}
+
+.delete-confirmation button:first-child:hover {
+    background-color: #c9302c;
+}
+
+.delete-confirmation button:last-child {
+    background-color: #5bc0de;
+    color: white;
+}
+
+.delete-confirmation button:last-child:hover {
+    background-color: #31b0d5;
+}
